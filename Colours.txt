@@ -1,0 +1,73 @@
+#7a8073
+background stwo #178e85
+
+sone rgba(214,11,11,1)
+
+//Before Nityah change
+
+#sone{	top: 310%; background: #f32837; }
+#stwo{	top: 340%; background: rgb(36,198,242); color: #6204BA; }
+#sthree{ top: 370%; background: #FFFF2B; color: #FF5324; }
+#sfour{	top: 400%; background: #00a651; }
+
+
+.contentone{
+	font-size: 300%;
+	top: 310%;
+	background: #00a651;
+}
+
+.contenttwo{
+	top:340%;
+	background: #178e85;
+	left: 0%;
+}
+
+.contentthree{
+	top:370%;
+	background: #f32837;
+}
+
+.contentfour{
+	top:400%;
+	background: #00a651;
+	left: 0%;
+}
+
+//After all nityah and mine changes
+#sone{	top: 300%; background: rgba(255,0,64,0.6) }
+#stwo{	top: 330%; background: rgba(0,128,255,0.6); }
+#sthree{ top: 360%; background: rgba(255,255,43,0.6); color: black; }
+#sfour{	top: 390%; background: rgba(116,223,0,0.6); }
+	
+.contentone,.contenttwo,.contentthree,.contentfour{
+	position: absolute;
+	left: 60%;
+	height: 30%;
+	width: 40%;
+	font-size: 150%;
+	font-family: 'Arvo', serif;	
+}
+
+.contentone{
+	font-size: 300%;
+	top: 300%;
+	background: rgba(244,24,141,0.6);
+}
+
+.contenttwo{
+	top:330%;
+	background: rgba(0,255,255,0.6);
+	left: 0%;
+}
+
+.contentthree{
+	top:360%;
+	background: rgba(243,40,55,0.6);
+}
+
+.contentfour{
+	top:390%;
+	background: rgba(0,166,81,0.6);
+	left: 0%;
+}
